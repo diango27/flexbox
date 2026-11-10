@@ -1,0 +1,35 @@
+:root {
+  --custom-bleu: #0000ff;
+  --custom-blanc: #fbfbff;
+  --custom-red: #ff0000;
+  --custom-black: #09090a;
+}
+
+.section-principale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.div-bleu {
+  background-color: var(--custom-bleu);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 48px 2px;
+}
+.div-rouge {
+  background-color: var(--custom-red);
+  color: var(--custom-black);
+  padding: 4px 13px;
+  font-size: 10px;
+}
+.div-blanche {
+  color: var(--custom-black);
+  border: 2px solid var(--custom-red);
+  padding: 16px 45px;
+  margin-top: 10px;
+  font-size: 10px;
+}
